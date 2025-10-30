@@ -1,16 +1,4 @@
-"""
-inventory_system.py: Improved after static code analysis.
 
-Fixes:
-- Mutable default arguments
-- Bare except
-- Input validation
-- Dangerous eval
-- Coding style (PEP8: docstrings, line length, naming, blank lines)
-- Resource management and encoding
-- No global statement
-- Iterating dictionary with .items()
-"""
 
 import json
 from datetime import datetime
@@ -121,3 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
